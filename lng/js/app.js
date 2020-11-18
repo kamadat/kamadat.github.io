@@ -6,7 +6,7 @@
    {"name":"KZ ATR (R)", "url":"data/kz_atr_r_fr.json"},
    {"name":"FiiO FH3 (R)", "url":"data/fiio_fh3_r_fr.json"},
    {"name":"FiiO FH5 (R)", "url":"data/fiio_fh5_r_fr.json"},
-   {"name":"RE800 Silver (R); single frage", "url":"data/hifiman_re800_silver_r_single_flange_fr.json"},
+   {"name":"RE800 Silver (R); single flage", "url":"data/hifiman_re800_silver_r_single_flange_fr.json"},
    {"name":"RE800 Silver (R); double flange", "url":"data/hifiman_re800_silver_l_double_flange_fr.json"},
    {"name":"TRN V90 (R)", "url":"data/trn_v90_r_fr.json"},
    {"name":"ER2SE (R)", "url":"data/er2se_r_fr.json"}
