@@ -14,8 +14,8 @@
 
   var view_model = {
     init: function() {
+      // TODO: consider unifying the two lists
       view_model.trace_list = [];
-      var fr_data_definition_list = undefined;
       view_model.fr_data_list = all_fr_data_list;
       view_model.fr_data_list.map(function (fr_data, index) {
         if (index == 0) {
@@ -28,6 +28,7 @@
     },
 
     getDisplayTraceList: function() {
+      // XXX: not efficient
       return view_model.trace_list.filter(function(trace) {
         return view_model.findFrData(trace.name).is_display();
       });
@@ -60,6 +61,7 @@
     },
 
     updateTrace: function(name, fr_json) {
+      // TODO: Concider to stop finding from the list
       var trace = view_model.findTrace(name);
       if (trace == undefined) {
         // XXX: shoud be define as a meta data
