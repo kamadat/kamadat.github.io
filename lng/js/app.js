@@ -17,8 +17,12 @@
       view_model.trace_list = [];
       var fr_data_definition_list = undefined;
       view_model.fr_data_list = all_fr_data_list;
-      view_model.fr_data_list.map(function (fr_data) {
-        fr_data.is_display = ko.observable(false);
+      view_model.fr_data_list.map(function (fr_data, index) {
+        if (index == 0) {
+          fr_data.is_display = ko.observable(true);
+        } else {
+          fr_data.is_display = ko.observable(false);
+        }
       });
       ko.applyBindings(view_model);
     },
