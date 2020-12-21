@@ -3,6 +3,7 @@
   // To do so init() should be a promise and render() it after init is finished
   var all_fr_data_list = [
    {"name":"FiiO FD5 (R)", "url":"data/fiio_fd5_r_fr.json"},
+   {"name":"FiiO FD5 (R); narrow nozzle triple frange", "url":"data/fiio_fd5_r_narrow_triple_flange_fr.json"},
    {"name":"KZ EDX (L)", "url":"data/kz_edx_l_fr.json"},
    {"name":"KZ ATR (R)", "url":"data/kz_atr_r_fr.json"},
    {"name":"FiiO FH3 (R)", "url":"data/fiio_fh3_r_fr.json"},
